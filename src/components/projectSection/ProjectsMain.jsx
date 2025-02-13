@@ -9,7 +9,7 @@ const projects=[
       align: "right",
       image: "/images/simon.png", 
       link: "https://vikaswatore.github.io/Simon-Says-Game-/",
-      description: "A fun memory game where players repeat an increasing sequence of colors and sounds."
+      description: "A fun memory game where players repeat an increasing sequence of colors."
     },
     {
       name: "Quiz Application",
