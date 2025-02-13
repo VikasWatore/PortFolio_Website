@@ -5,6 +5,7 @@
 
 @theme {
   
+    --shadow-cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)";
     --shadow-cyanMediumShadow:"10px 10px 200px 150px rgba(94,206,220,0.5)";
     --shadow-OrangeMediumShadow:"10px 10px 200px 150px rgba(246,169,79,0.5)";
 
@@ -36,5 +37,5 @@
 }
 
 body{
-  background-color: rgb(16, 15, 15);
+  background-color: #2c2523;
 }

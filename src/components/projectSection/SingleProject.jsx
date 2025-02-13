@@ -5,10 +5,10 @@ import {fadeIn} from '../framerMotion/variants';
 const SingleProject = ({name,align,image,link,description}) => {
   return (
     <motion.div
-    variants={fadeIn('up',0.2)}
+    variants={fadeIn('up',0)}
                   initial='hidden'
                   whileInView='show'
-                  viewport={{once:false,amount:0}}
+                  viewport={{once:false,amount:0.1}}
     
     className={`flex w-full sm:flex-col-reverse items-center gap-8 ${align=== 'left'? `md:flex-row`:`md:flex-row-reverse` } justify-end`}>
       <div>
@@ -22,7 +22,7 @@ const SingleProject = ({name,align,image,link,description}) => {
       </div>
       <div className='max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-white'>
         <div className='w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden'></div>
-        <img src={image} alt="" className='w-full h-full object-contain ' />
+        <img src={image} alt="website Image" className='w-full h-full object-contain ' />
       </div>
     </motion.div>
   )

@@ -1,4 +1,3 @@
-import React from 'react'
 import SingleContactSocial from './SingleContactSocial'
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
