@@ -20,7 +20,7 @@ const projects=[
     },
     {
       name: "Quiz Application",
-      align: "left",
+      align: "rigth",
       image: "/images/QuizApp.png", 
       link: "https://github.com/VikasWatore/Quiz-Application",
       description: "An interactive quiz application built using Java and Swing, with MySQL as the backend."
@@ -28,7 +28,7 @@ const projects=[
      
      {
          name: "Currency Converter",
-         align: "Right",
+         align: "left",
          image: "/images/CurrencyConverter.png",
          link: "https://github.com/VikasWatore/React/tree/main/06currencyConverter",
          description: "A real-time currency converter that allows users to convert between different currencies."
