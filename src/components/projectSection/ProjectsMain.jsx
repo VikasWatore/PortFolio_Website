@@ -4,7 +4,14 @@ import SingleProject from './SingleProject'
 import {motion} from "framer-motion";
 import {fadeIn} from '../framerMotion/variants';
 const projects=[
-    {
+   {
+      name: "Simon Game",
+      align: "right",
+      image: "/images/simon.png", 
+      link: "https://vikaswatore.github.io/Simon-Says-Game-/",
+      description: "A fun memory game where players repeat an increasing sequence of colors."
+    }, 
+  {
       name: "Simon Game",
       align: "right",
       image: "/images/simon.png", 
