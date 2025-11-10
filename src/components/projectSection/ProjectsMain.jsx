@@ -5,15 +5,15 @@ import {motion} from "framer-motion";
 import {fadeIn} from '../framerMotion/variants';
 const projects=[
    {
-      name: "Simon Game",
+      name: "Student Profile Management System WebApp",
       align: "right",
-      image: "/images/simon.png", 
+      image: "/image/Student Management Appd.png", 
       link: "https://vikaswatore.github.io/Simon-Says-Game-/",
-      description: "A fun memory game where players repeat an increasing sequence of colors."
+      description: "Developed a responsive full-stack web application to manage student profiles with viewing and updating features."
     }, 
   {
       name: "Simon Game",
-      align: "right",
+      align: "left",
       image: "/images/simon.png", 
       link: "https://vikaswatore.github.io/Simon-Says-Game-/",
       description: "A fun memory game where players repeat an increasing sequence of colors."
