@@ -7,8 +7,8 @@ const projects=[
    {
       name: "Student Profile Management System WebApp",
       align: "right",
-      image: "/image/Student Management Appd.png", 
-      link: "https://vikaswatore.github.io/Simon-Says-Game-/",
+      image: "/images/StudentManagementApp.png", 
+      link: "https://github.com/VikasWatore/Student-Profile-Management",
       description: "Developed a responsive full-stack web application to manage student profiles with viewing and updating features."
     }, 
   {
